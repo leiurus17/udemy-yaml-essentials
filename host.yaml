@@ -1,10 +1,11 @@
 # Philly DC Host Data
+%TAG !tag:hostdata:phl:
 ---
 host: phl-42
 datacenter:
-  location: Philadelphia # Reference ID: PHL
-  cab: 13
-  cab_unit: "3"
+  location: !PHL Philadelphia # Reference ID: PHL
+  cab: !!str 13
+  cab_unit: !!str 3
 roles:
   - webserver
   - wp_database
