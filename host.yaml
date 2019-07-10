@@ -1,7 +1,8 @@
+# Philly DC Host Data
 ---
 host: phl-42
 datacenter:
-  location: Philadelphia
+  location: Philadelphia # Reference ID: PHL
   cab: 13
   cab_unit: "3"
 roles:
