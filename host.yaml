@@ -6,5 +6,10 @@ datacenter:
 roles:
   - webserver
   - wp_database
-  - ""
-another_roles: [webclient, drupal_database]
+downtime_sch: |
+  2018-10-31 - kernel upgrade
+  2019-02-02 - security fix
+comments: >
+  Experiencing high I/O
+  since 2018-10-01.
+  Current investigating.
