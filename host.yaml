@@ -3,4 +3,8 @@ datacenter:
   location: Philadelphia
   cab: 13
   cab_unit: 3
-  
+roles:
+  - webserver
+  - wp_database
+  - ""
+another_roles: [webclient, drupal_database]
