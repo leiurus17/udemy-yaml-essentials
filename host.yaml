@@ -1,8 +1,9 @@
+---
 host: phl-42
 datacenter:
   location: Philadelphia
   cab: 13
-  cab_unit: 3
+  cab_unit: "3"
 roles:
   - webserver
   - wp_database
@@ -13,3 +14,16 @@ comments: >
   Experiencing high I/O
   since 2018-10-01.
   Current investigating.
+---
+host: phl-43
+datacenter:
+  location: Philadelphia
+  cab: 13
+  cab_unit: "4"
+...
+---
+host: hel-13
+datacenter:
+  location: Helsinki
+  cab: "13"
+  cab_unit: "4"
