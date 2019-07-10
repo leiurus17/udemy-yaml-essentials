@@ -20,12 +20,12 @@ comments: >
 host: phl-43
 datacenter:
   location: Philadelphia
-  cab: 13
-  cab_unit: "4"
+  cab: !!str 13
+  cab_unit: !!str 4
 ...
 ---
 host: hel-13
 datacenter:
   location: Helsinki
-  cab: "13"
-  cab_unit: "4"
+  cab: !!str 13
+  cab_unit: !!str 4
