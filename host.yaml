@@ -3,10 +3,10 @@
 ---
 host: phl-42
 datacenter:
-  location: !PHL Philadelphia # Reference ID: PHL
+  location: &PHL Philadelphia # Reference ID: PHL
   cab: !!str 13
   cab_unit: !!str 3
-roles:
+roles: &wphost
   - webserver
   - wp_database
 downtime_sch: |
@@ -19,9 +19,10 @@ comments: >
 ---
 host: phl-43
 datacenter:
-  location: Philadelphia
+  location: *PHL
   cab: !!str 13
   cab_unit: !!str 4
+roles: *wphost
 ...
 ---
 host: hel-13
